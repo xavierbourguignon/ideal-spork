@@ -1,4 +1,5 @@
 prose:
+  rooturl: "_rules"
 	metadata:
     _rules:
       - name: "Type"
