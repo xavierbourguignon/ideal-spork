@@ -1,28 +1,28 @@
 prose:
   rooturl: "_rules"
-	metadata:
-    _rules:
-      - name: "Type"
-        field:
-          element: "select"
-          options: 
-            - name: "Bug"
-              value: "Bug"
-            - name: "Vulnerability"
-              value: "Vulnerability"
-            - name: "Code Smell"
-              value: "CodeSmell"
-      - name: "Severity"
-        field:
-          element: "select"
-          options: 
-            - name: "Blocker"
-              value: "Blocker"
-            - name: "Critical"
-              value: "Critical"
-            - name: "Major"
-              value: "Major"
-            - name: "Minor"
-              value: "Minor"
-            - name: "Info"
-              value: "Info"
+    metadata:
+      _rules:
+        - name: "Type"
+          field:
+            element: "select"
+            options: 
+              - name: "Bug"
+                value: "Bug"
+              - name: "Vulnerability"
+                value: "Vulnerability"
+              - name: "Code Smell"
+                value: "CodeSmell"
+        - name: "Severity"
+          field:
+            element: "select"
+            options: 
+              - name: "Blocker"
+                value: "Blocker"
+              - name: "Critical"
+                value: "Critical"
+              - name: "Major"
+                value: "Major"
+              - name: "Minor"
+                value: "Minor"
+              - name: "Info"
+                value: "Info"
