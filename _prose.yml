@@ -5,6 +5,7 @@ prose:
       - name: "Type"
         field:
           element: "select"
+          label: "Type"
           options: 
             - name: "Bug"
               value: "Bug"
@@ -15,20 +16,17 @@ prose:
       - name: "Severity"
         field:
           element: "select"
+          label: "Severity"
           options: 
             - name: "Blocker"
-              value: "Blocker"
             - name: "Critical"
-              value: "Critical"
             - name: "Major"
-              value: "Major"
             - name: "Minor"
-              value: "Minor"
             - name: "Info"
-              value: "Info"
       - name: "Targeted Language"
         field:
           element: "multiselect"
+          label: "Targeted Language"
           options: 
             - name: "ABAP"
             - name: "C#"
